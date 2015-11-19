@@ -1,0 +1,8 @@
+<?php
+// database host, user and password
+define("DATABASE_HOST", "");
+define("DATABASE_USERNAME", "");
+define("DATABASE_PASSWORD", "");
+define("DEFAULT_DATABASE", "");
+
+?>

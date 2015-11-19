@@ -1,0 +1,423 @@
+body {
+	font-family: helvetica, verdana, sans-serif; 
+	font-size: 10pt; 
+	background-color: #333; 
+	color: #6f6; 
+	margin: 0 auto;
+}
+
+#container {
+	margin: 0 auto;
+	width: 1000px;
+}
+
+#search-header {
+	font-size: 12pt;
+	font-weight: 700;
+}
+
+
+#logo-top {
+	top: 0px; 
+	left: 0px; 
+	height: 125px;
+	overflow:hidden;
+}
+
+#logo-middle-left {
+
+	top: 125px; 
+	left: 0px; 
+	width:400px;
+	float: left;
+}
+
+#logo-middle-right {
+
+	top: 130px; 
+	left:395px; 
+	height:100px; 
+	text-align:right; 
+	overflow:hidden;
+}
+
+img.cover {
+	padding: 5px;
+	float: left;
+	width: 100px;
+	height: 100px;
+}
+
+
+ /* Z-index of #mask must lower than #boxes .window */  
+#mask {  
+	position:absolute;  
+	z-index:9000;  
+	background-color:#000;  
+	display:none;  
+ }  
+     
+ #boxes .window {  
+	position:absolute;  
+	width:440px;  
+	height:200px;  
+	display:none;  
+	z-index:9999;  
+	padding:20px;  
+	border: 10px solid;
+	text-align: center;
+	background-color: #eee;
+ }  
+   
+   
+ /* Customize your modal window here, you can add background image too */  
+ #boxes #dialog {  
+	width:375px;   
+	height:203px;  
+ }  
+
+
+#sub-panel {
+	top: 0px;
+	left: 0px;
+	position: absolute;
+}
+
+
+#item-container {
+	width: 100%;
+}
+
+.item-list {
+	border: 0;
+	border-spacing: 0px;
+    border-collapse: separate;
+}
+
+.item-list td, .item-list th {
+	padding: 3px;
+}
+
+.item-grid {
+	border: 0;
+	border-spacing: 0px;
+    border-collapse: separate;
+}
+
+.item-grid td, .item-grid th {
+	padding: 3px;
+}
+
+
+#heading {
+	font-size: 10pt;
+}
+
+
+.item-heading {
+	background-color:#eee; 
+	color:#ff0000; 
+	font-weight:bold;
+	text-align: left;
+}
+
+#content {
+
+	top: 220px;
+	left: 5px;
+}
+
+#keywords {
+	font-size: 10pt;
+}
+
+p {
+	font-weight: normal;
+	color: gray; }
+h1 {
+	color: black; 
+}
+
+tr {
+	font-size: 10pt;
+	color: #6f6;
+	}
+
+.over, tr:hover {
+	border-color:#000000; 
+	border-width:1px; 
+}
+
+.item {
+	padding-bottom: 10px;
+}
+
+.item-title td {
+	border-bottom-style: dotted;
+	border-bottom-color: #eee;
+	border-bottom-width: 1px; 
+	background-color: transparent;
+}
+
+.player {
+	float: left;
+}
+
+.dotted {
+	border-bottom-style: dotted;
+	border-bottom-color: #eee;
+	border-bottom-width: 1px; 
+	background-color: transparent;
+}
+
+a {
+	text-decoration:none; 
+	color:#009900; 
+	font-weight: bold;
+}
+a:hover {
+	text-decoration:none; 
+	color: #fff; 
+	font-weight: bold;
+}
+
+a.newrelease {
+	text-decoration: none; 
+	color: #009900; 
+	font-weight: bold;
+	padding: 2px;
+}
+a.newrelease:hover {
+	text-decoration: none; 
+	color: #f6f; 
+	background: #eee; 
+	font-weight: bold;
+}
+
+a.forumsbody {
+	text-decoration: none; 
+	color: #009900; 
+	font-weight: bold;
+}
+a.forumsbody:hover {
+	text-decoration: none; 
+	color: #Ff0000; 
+	background: #000000; 
+	font-weight: bold;
+}
+
+a.release {
+	text-decoration: none; 
+	color: #009900; 
+	font-weight:bold;
+}
+a.release:hover {
+	text-decoration: none; 
+	color: #Ff0000; 
+	background: #000000; 
+	font-weight:bold;
+}
+
+a.title1 {
+	text-decoration: none; 
+	color: #009900; 
+	font-weight:bold;
+}
+a.title1:hover {
+	text-decoration: none; 
+	color: #Ff0000; 
+	background: #000000;
+	font-weight: bold}
+
+.button {
+	background-color: #6f6; 
+	font-family: helvetica, arial; 
+	font-size: 10pt;
+	color: #000000; 
+	border-color: #ffffff; 
+	vertical-align: middle; 
+	border-style: solid;
+	border-width: 1px;
+}
+
+.button1 {
+	background-color: #6f6; 
+	font-family: helvetica, arial; 
+	font-size: 8pt;
+	color: #000000; 
+	border-color: #ffffff; 
+	vertical-align: middle; 
+	border-style: solid;
+	border-width: 1px;
+}
+.button2 {
+	background-color:#ccccbb; 
+	font-family: helvetica, arial; 
+	font-size: 8pt;
+	color: #000000; 
+	border-color: #ffffff;
+	border-style: none;
+	border-width: 0px;
+	padding: 0;
+}
+
+.form1 {
+	background-color:#eee; 
+	font-family: helvetica, arial; 
+	font-size: 8pt;
+	color: #000000; 
+	vertical-align:middle; 
+	border-color: #090;
+	border-style: solid;
+	border-width: 1px;
+}
+
+.dotbot {
+	border-bottom-style: dotted;
+	border-bottom-color: #eee;
+	border-bottom-width: 1px; 
+	background-color: transparent;
+}
+
+.dotborder {
+	border-style:dotted;
+	border-width:1px;
+} 
+
+.text1 {
+	color:#cfc;
+}
+.text2 {
+	color:#00aa00;
+}
+.text3 {
+	color:#000066;
+}
+
+.title1 {
+	background-color:#eee; 
+	color:#ff0000; 
+	font-weight:bold;
+}
+.title2 {
+	background-color:#ff0000; 
+	color:333333; 
+	font-weight:bold;
+}
+
+.title3 {
+	background-color:#ffcc00; 
+	color:ff0000;
+} 
+.title4 {
+	background-color:#000066; 
+	color:00cccc;
+}
+
+
+
+.itemstitle1 {
+	background-color:#ff0000; 
+	color:#ff0000;
+} 
+.itemstitle2 {
+	background-color:#000066; 
+	color:#00cccc;
+}
+
+.forumstitle1 {
+	background-color:#ff0000; 
+	color:#ff0000;
+} 
+.forumstitle2 {
+	background-color:#000066; 
+	color:#00cccc;
+}
+.forumsbody {
+	background-color:#ffdd00; 
+	color: #000000;
+}
+.forumshilight {
+	background-color:#ffee00; 
+	color: #000000;
+}
+.forumsselect {
+	background-color:#ffcc00; 
+	color: #000000;
+}
+
+.newrelease1 {
+	background-color:#6f6; 
+	color: #000000;
+}
+.newrelease2 {
+	background-color:#eee; 
+	color: #009900;
+}
+
+.newrelease2 td {
+	padding: 2px;
+}
+
+.release1 {
+	background-color:#eee; 
+	color: #000000;
+}
+
+.release1:hover {
+	background-color:#9f9; 
+	color: #000000;
+}
+
+.release1 td {
+	border: solid 5px #090;
+}
+
+.release2 {
+	background-color:#ffee00; 
+	color: #009900;
+}
+
+.shade1 {
+	background-color:#444444;
+}
+.shade2 {
+	background-color:#333333;
+}
+.shade3 {
+	background-color:#222222;
+}
+
+.select1 {
+	background-color:#444444;
+}
+.select2 {
+	background-color:#0000ff;
+	color: #ffcc00;
+}
+.bg1 {
+	background-color:#ccccbb;
+}
+.bg2 {
+	background-color:#ddddcc;
+}
+.bg3 {
+	background-color:#cccccc;
+}
+.bg4 {
+	background-color:#dddddd;
+}
+.hilight {
+	color:#006600; 
+	font-weight:bold;
+}
+
+div.itemDescriptionHide {
+	overflow:hidden; 
+	height:0;
+}
+
+tbody.item:hover {
+	background-color: #101010;
+}
+

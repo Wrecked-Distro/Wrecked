@@ -1,0 +1,156 @@
+body {
+    font-family:"Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size:10pt;
+    background-color:#EEE;
+    color:#000;
+    margin: 10px;
+}
+
+#menu a {
+	padding: 2px;
+}
+
+#menu a:hover {
+	padding: 2px;
+}
+
+#content {
+    position:absolute;
+    left:150px;
+    top:5px
+}
+
+a {
+    color:#600;
+    text-decoration:none
+}
+
+a:hover {
+    color:red;
+   font-weight:700;
+}
+
+a.newrelease {
+    text-decoration:none;
+    color:#090;
+    font-size:7pt
+}
+
+a.newrelease:hover {
+    text-decoration:none;
+    color:red;
+    background:#000
+}
+
+p.dotted {
+    border-style:dotted;
+    border-bottom-width:4px
+}
+
+.button1 {
+    background-color:#ccb;
+    font-family:arial;
+    font-size:10pt;
+    color:#000;
+    border-color:#ffffff;
+    border-style:outset;
+    border-width:1px
+}
+
+.button2 {
+    background-color:#ccb;
+    font-family:arial;
+    font-size:8pt;
+    color:#000;
+    border-color:#ffffff;
+    border-style:none;
+    border-width:0;
+    padding:0
+}
+
+.form1 {
+    background-color:#ccb;
+    font-family:arial;
+    font-size:10pt;
+    color:#000;
+    border-color:#ffffff;
+    border-style:inset;
+    border-width:1px
+}
+
+.text1 {
+    color:#060
+}
+
+.text2 {
+    color:#0a0
+}
+
+.text3 {
+    color:#006
+}
+
+.title1 {
+    background-color:#aaa;
+    color:#ffffff
+}
+
+.title2 {
+    background-color:#cf0
+}
+
+.title3 {
+    background-color:#cf0;
+    color:#ff0000
+}
+
+.title4 {
+    background-color:#006;
+    color:#00cccc
+}
+
+.itemstitle1 {
+    background-color:#fc0;
+    color:#ff0000
+}
+
+.itemstitle2 {
+    background-color:#006;
+    color:00cccc
+}
+
+.newrelease1 {
+    background-color:#af0
+}
+
+.newrelease2 {
+    background-color:#cf0
+}
+
+.shade1 {
+    background-color:#ddd
+}
+
+.shade2 {
+    background-color:#ccc
+}
+
+.shade3 {
+    background-color:#bbb
+}
+
+tr {
+    border-width: 1px;
+}
+
+td {
+	padding: 3px;
+}
+
+#query {
+	background-color: #fc0;
+}
+
+a.selected {
+	background-color: #bbb;
+}

@@ -1,0 +1,14 @@
+<?php
+// application configs
+
+// default admin user
+define("ADMIN_USER", '');  		// user in db that gains admin by default
+define("SALES_EMAIL", ''); 		// address that sales emails will be sent from
+define("FRONTEND_URL", ''); 	// http://yourdomain.com/installpath
+define("BACKEND_URL", '');  	// http://yourdomain.com/installpath/code?
+
+
+define("SMTP_SERVER", '');   		// smtp server name
+define("SMTP_USERNAME", '');	// smtp server auth username
+define("SMTP_PASSWORD", ''); 					// smtp server auth password
+?>
