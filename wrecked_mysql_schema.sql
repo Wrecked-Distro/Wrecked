@@ -1,15 +1,6 @@
 /*
 Navicat MySQL Data Transfer
-
-Source Server         : external-db.s9372.gridserver.com
-Source Server Version : 50167
-Source Host           : external-db.s9372.gridserver.com:3306
-Source Database       : db9372_distro
-
-Target Server Type    : MYSQL
-Target Server Version : 50167
-File Encoding         : 65001
-
+Schema necessary for the Wrecked distro v1.0 site.
 Date: 2015-11-19 13:54:35
 */
 
